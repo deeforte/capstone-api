@@ -2,7 +2,7 @@
 
 API="${API_ORIGIN:-http://localhost:4741}"
 URL_PATH="/sign-up"
-EMAIL="harpoon@email.com"
+EMAIL="trillium@email.com"
 PASSWORD="gosox"
 
 curl "${API}${URL_PATH}" \

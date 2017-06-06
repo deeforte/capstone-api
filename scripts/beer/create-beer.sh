@@ -1,10 +1,10 @@
 #!/bin/bash
 city="boston"
-beer="Ales for ALS"
-brewery="harpoon"
+beer="Sleeper Street"
+brewery="trillium"
 style="IPA"
 description="description here"
-TOKEN="BAhJIiVjY2I4NzEyNDk2YzkwOTM5ZjhlYWY5YjlmNGYxOWE5OAY6BkVG--4202b813cf0ec9637f443d00b6500dbb26c0ab40"
+TOKEN="BAhJIiVlYTNhOGNlNjVmYjY1YzkzZjE0Y2ExYzg5YmVjYTljYwY6BkVG--ef15d201e3964d39402a5d2c25c7b09abdd614ff"
 
 curl --include --request POST http://localhost:4741/beers \
   --header "Content-Type: application/json" \

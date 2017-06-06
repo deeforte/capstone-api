@@ -1,11 +1,17 @@
 class BeersController < OpenReadController
   before_action :set_beer, only: [:update, :destroy]
 
-  # GET /beers
+  # GET /beers for current user
   def index
     @beers = Beer.all
-
+#    @beers = current_user.beers
     render json: @beers
+  end
+
+  # GET /beers all
+  def mybeers
+#    @allbeers = Beer.all
+    render json: current_user.beers
   end
 
   # GET /beers/1
