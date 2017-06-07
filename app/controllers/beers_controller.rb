@@ -5,13 +5,13 @@ class BeersController < OpenReadController
   def index
     @beers = Beer.all
 #    @beers = current_user.beers
-    render json: @beers
+    render json: @beers.order(:brewery, :beer)
   end
 
   # GET /beers all
   def mybeers
 #    @allbeers = Beer.all
-    render json: current_user.beers
+    render json: current_user.beers.order(:beer)
   end
 
   # GET /beers/1
