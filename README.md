@@ -24,7 +24,7 @@ No customized installation instructions.
 
 ## Technologies
 
-Ruby on Rails
+Ruby on Rails to support the straightforward relational database.
 
 ## General Approach
 
@@ -35,4 +35,4 @@ Tested each route with a curl script prior to connecting to the client side.  My
 
 ## Unsolved problems or hurdles
 
-I wanted the application to be public so that made the index route a get all.  I created a sutom route for the mybeers(current_user) action to get just that brewer's beers.
+No unsolved problems.
